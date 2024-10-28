@@ -1,0 +1,9 @@
+from datetime import datetime, timedelta
+#g = int (input ("Scrivere il giorno di nascita "))
+#m = int (input ("Scrivere il mese di nascita "))
+#y = int (input ("Scrivere l'anno di nascita "))
+#mydate_str = "{:}-{:}-{:}".format (g,m,y)
+app = "30-1-0001"
+mydate = datetime.strptime ( app,"%d-%m-%Y")
+
+
